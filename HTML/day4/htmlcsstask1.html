@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Exercises 21-40</title>
+    <style>
+        /* --- INTERNAL CSS SECTION --- */
+        
+        /* 22. Internal CSS */
+        .task-22 {
+            background-color: lightblue;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px; /* Added for better visibility */
+        }
+
+        /* 25. Internal CSS */
+        .task-25 {
+            font-size: 18px;
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        /* 28. Internal CSS */
+        .task-28 {
+            font-size: 24px;
+            text-align: left;
+            color: blue;
+        }
+
+        /* 34. Internal CSS */
+        .task-34 {
+            color: blue; /* Fixed typo "text color" */
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* 37. Internal CSS */
+        .task-37 {
+            background-color: lightgray;
+            text-align: center;
+            font-style: italic;
+            padding: 5px; /* Added for visibility */
+        }
+
+        /* 40. Internal CSS */
+        .task-40 {
+            font-style: italic;
+            color: green;
+            line-height: 1.8;
+        }
+
+
+        /* --- EXTERNAL CSS SECTION (Simulated in same file) --- */
+
+        /* 23. External CSS */
+        .task-23 {
+            border: 1px solid black;
+            word-spacing: 15px;
+            color: #444;
+            padding: 5px;
+        }
+
+        /* 26. External CSS */
+        .task-26 {
+            color: red;
+            text-align: center;
+            letter-spacing: 4px;
+        }
+
+        /* 29. External CSS */
+        .task-29 {
+            border: 2px inset black;
+            letter-spacing: 2px;
+            padding: 10px;
+        }
+
+        /* 31. External CSS (p tag) */
+        p.task-31 {
+            color: darkred;
+            font-size: 18px;
+            text-align: justify; /* Fixed typo "textalign" */
+        }
+
+        /* 32. External CSS (div tag) */
+        div.task-32 {
+            background-color: lightgreen;
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* 33. External CSS (h1 tag) */
+        h1.task-33 {
+            font-style: italic; /* Added missing colon */
+            color: navy;
+            letter-spacing: 3px;
+        }
+
+        /* 35. External CSS (div tag) */
+        div.task-35 {
+            color: darkblue; /* Fixed typo "text color" */
+            font-size: 40px;
+            text-align: center;
+        }
+
+        /* 38. External CSS */
+        .task-38 {
+            color: red;
+            text-align: center; /* Fixed typo "text-alingment" */
+            font-size: 18px;
+        }
+        
+        /* General styling for layout readability */
+        body { font-family: sans-serif; padding: 20px; }
+        hr { margin: 20px 0; border: 0; border-top: 1px dashed #ccc; }
+        strong { color: #555; display: block; margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+
+    <strong>21. Inline CSS:</strong>
+    <p style="font-style: italic; font-size: 20px; color: #800000;">
+        This is item 21 with italic font, 20px size, and maroon color.
+    </p>
+    <hr>
+
+    <strong>22. Internal CSS:</strong>
+    <div class="task-22">
+        This is item 22 (lightblue bg, centered, bold).
+    </div>
+    <hr>
+
+    <strong>23. External CSS:</strong>
+    <div class="task-23">
+        This is item 23 with wide word spacing and a border.
+    </div>
+    <hr>
+
+    <strong>24. Inline CSS:</strong>
+    <div style="border: 2px groove green; color: darkgreen; font-size: 20px;">
+        This is item 24 with a green groove border.
+    </div>
+    <hr>
+
+    <strong>25. Internal CSS:</strong>
+    <p class="task-25">
+        This is item 25. The text is justified and has a line height of 1.5. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <hr>
+
+    <strong>26. External CSS:</strong>
+    <h1 class="task-26">Item 26 Heading</h1>
+    <hr>
+
+    <strong>27. Inline CSS:</strong>
+    <p style="text-decoration: line-through; color: gray; background-color: lightcyan;">
+        This is item 27 with strikethrough text.
+    </p>
+    <hr>
+
+    <strong>28. Internal CSS:</strong>
+    <div class="task-28">
+        This is item 28 with large blue text.
+    </div>
+    <hr>
+
+    <strong>29. External CSS:</strong>
+    <div class="task-29">
+        This is item 29 with an inset border and spacing.
+    </div>
+    <hr>
+
+    <strong>30. Inline CSS:</strong>
+    <h2 style="color: darkorange; font-size: 26px; font-style: italic;">
+        Item 30 Heading
+    </h2>
+    <hr>
+
+    <strong>31. External CSS (Paragraph):</strong>
+    <p class="task-31">
+        This is item 31. It uses a p tag with darkred color and justified text alignment via external CSS.
+    </p>
+    <hr>
+
+    <strong>32. External CSS (Div):</strong>
+    <div class="task-32">
+        This is item 32 (lightgreen bg, border).
+    </div>
+    <hr>
+
+    <strong>33. External CSS (H1):</strong>
+    <h1 class="task-33">Item 33 Heading</h1>
+    <hr>
+
+    <strong>34. Internal CSS:</strong>
+    <p class="task-34">
+        This is item 34 with blue text and line height.
+    </p>
+    <hr>
+
+    <strong>35. External CSS:</strong>
+    <div class="task-35">
+        Item 35
+    </div>
+    <hr>
+
+    <strong>36. Inline CSS:</strong>
+    <div style="background-color: yellow; font-size: 20px; border: 2px solid black; padding: 5px;">
+        This is item 36 with yellow background.
+    </div>
+    <hr>
+
+    <strong>37. Internal CSS:</strong>
+    <div class="task-37">
+        This is item 37 (lightgray bg, italic).
+    </div>
+    <hr>
+
+    <strong>38. External CSS:</strong>
+    <p class="task-38">
+        This is item 38 centered red text.
+    </p>
+    <hr>
+
+    <strong>39. Inline CSS:</strong>
+    <div style="border: 2px dotted red; padding: 10px; background-color: lightgray;">
+        This is item 39 with a dotted red border.
+    </div>
+    <hr>
+
+    <strong>40. Internal CSS:</strong>
+    <p class="task-40">
+        This is item 40. Green italic text with 1.8 line height. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+
+</body>
+</html>

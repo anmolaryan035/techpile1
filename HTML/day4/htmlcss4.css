@@ -1,0 +1,37 @@
+h1{
+    color: blue;
+    background-color: lightgray;
+    border: 2px solid black;
+    text-align: center;
+    text-transform: uppercase;
+}
+#sheer{
+    height: 200px;
+    width: 400px;
+    border: 5px dashed red;
+    border-radius: 15px;
+}
+#a{
+    color: blueviolet;
+    background-color: bisque;
+    text-align: center;
+    border-radius: 2px solid red;
+}
+#b{
+    color: blanchedalmond;
+    background-color: black;
+    text-align: center;
+    border-radius: 2px solid violet;
+}
+#c{
+    color: wheat;
+    background-color: black;
+    text-align: center;
+    border-radius: 2px solid red;
+}
+#d{
+    color: beige;
+    background-color: blue;
+    text-align: center;
+    border-radius: 2px solid red;
+}
